@@ -1,7 +1,4 @@
-<![CDATA[<div align="center">
-
 # 📊 NATIJALAR VA TAQQOSLASH
-
 ### NafGroup CRM — TZ Takomillashtirish Hisoboti
 
 ---
@@ -10,10 +7,6 @@
 
 **2025-yil, 2-Aprel**
 
-</div>
-
-<br/>
-
 ---
 
 ## 🎯 MAQSAD
@@ -21,8 +14,6 @@
 > Ushbu hujjat dastlabki TZ (v1.0) da mavjud bo'lgan **muammolarni**, har biriga berilgan **yechimlarni**, va ish jarayonida paydo bo'ladigan **amaliy afzalliklarni** batafsil tushuntiradi.
 
 ---
-
-<br/>
 
 ## 📈 1. UMUMIY KO'RSATKICHLAR
 
@@ -70,15 +61,9 @@ graph LR
 
 ---
 
-<br/>
-
 ## 🔴 2. MUAMMOLAR VA YECHIMLAR
 
 ### 2.1 📄 Hujjat tuzilmasi
-
-<table>
-<tr>
-<td width="50%">
 
 #### ❌ MUAMMO (v1.0)
 
@@ -87,26 +72,19 @@ graph LR
 - Kerakli ma'lumotni topish **qiyin**
 - Formatlash tartibsiz — oddiy matn
 
-</td>
-<td width="50%">
-
 #### ✅ YECHIM (v2.0)
 
 - **7 ta mustaqil hujjat** — har biri o'z vazifasiga
 - Har bir mutaxassis o'ziga tegishli hujjatni o'qiydi
-- Centered headerlar, bo'limlar `---` bilan ajratilgan
+- Centered headerlar, bo'limlar ajratilgan
 - Yagona dizayn tizimi barcha hujjatlarda
-
-</td>
-</tr>
-</table>
 
 #### 💡 Ish jarayonidagi afzallik:
 
-> **Dasturchi** → faqat `03_DATABASE_SCHEMA.md` va `04_API_SPECIFICATION.md` ochadi
-> **Dizayner** → faqat `06_UI_UX_DESIGN.md` ochadi
-> **Loyiha rahbari** → faqat `01_TEXNIK_TOPSHIRIQ.md` ochadi
-> **DevOps** → faqat `07_SECURITY_DEPLOY.md` ochadi
+> **Dasturchi** → faqat `DATABASE_SCHEMA.md` va `API_SPECIFICATION.md` ochadi
+> **Dizayner** → faqat `UI_UX_DESIGN.md` ochadi
+> **Loyiha rahbari** → faqat `TEXNIK_TOPSHIRIQ.md` ochadi
+> **DevOps** → faqat `SECURITY_DEPLOY.md` ochadi
 >
 > 🕐 **Vaqt tejash:** har bir kishi o'ziga kerakli ma'lumotni **3-5 soniyada** topadi
 
@@ -114,19 +92,12 @@ graph LR
 
 ### 2.2 📊 Vizualizatsiya
 
-<table>
-<tr>
-<td width="50%">
-
 #### ❌ MUAMMO (v1.0)
 
 - Buyurtma holatlari faqat **matnda** tasvirlangan
 - Jarayonlar oqimi tushunarsiz
 - Yangi dasturchi loyihani tushunish uchun **butun hujjatni o'qishi** shart
 - Aloqalar (qaysi modul qaysi modulga bog'liq) aytilmagan
-
-</td>
-<td width="50%">
 
 #### ✅ YECHIM (v2.0)
 
@@ -137,10 +108,6 @@ graph LR
 - `erDiagram` — database aloqalar
 - `gantt` — ishlab chiqish rejasi
 - Ranglar bilan vizual ajratish
-
-</td>
-</tr>
-</table>
 
 #### 💡 Ish jarayonidagi afzallik:
 
@@ -154,10 +121,6 @@ graph LR
 
 ### 2.3 🗄 Ma'lumotlar bazasi
 
-<table>
-<tr>
-<td width="50%">
-
 #### ❌ MUAMMO (v1.0)
 
 - Database jadvallari faqat **nomlar ro'yxati** sifatida
@@ -165,9 +128,6 @@ graph LR
 - Dasturchi **har bir jadvalni o'zi loyihalashi** kerak
 - Indekslar, triggerlar esdan chiqishi mumkin
 - Jadvallar orasidagi bog'liqlik noaniq
-
-</td>
-<td width="50%">
 
 #### ✅ YECHIM (v2.0)
 
@@ -177,10 +137,6 @@ graph LR
 - Performance indekslari tayyor
 - `update_stock()` trigger — avtomatik
 - Color-coded dependency graph
-
-</td>
-</tr>
-</table>
 
 #### 💡 Ish jarayonidagi afzallik:
 
@@ -196,10 +152,6 @@ graph LR
 
 ### 2.4 🔌 API Spetsifikatsiya
 
-<table>
-<tr>
-<td width="50%">
-
 #### ❌ MUAMMO (v1.0)
 
 - API faqat **8 ta guruh** (URL prefix) sifatida
@@ -208,9 +160,6 @@ graph LR
 - Kim qaysi endpoint'ga kirish huquqi bor — noaniq
 - Frontend dasturchi nima kutishni bilmaydi
 
-</td>
-<td width="50%">
-
 #### ✅ YECHIM (v2.0)
 
 - **60+** aniq endpoint — metod, URL, tavsif
@@ -218,10 +167,6 @@ graph LR
 - Har bir endpoint yonida **rol** ko'rsatilgan
 - Filtrlash, pagination, error format
 - Swagger/OpenAPI uchun tayyor asos
-
-</td>
-</tr>
-</table>
 
 #### 💡 Ish jarayonidagi afzallik:
 
@@ -237,19 +182,12 @@ graph LR
 
 ### 2.5 🔄 Workflow Diagrammalar
 
-<table>
-<tr>
-<td width="50%">
-
 #### ❌ MUAMMO (v1.0)
 
 - Jarayonlar faqat **matnda** tasvirlangan
 - "Buyurtma yaratiladi, keyin bosishga o'tadi..." kabi
 - Edge case'lar (nima bo'ladi agar...?) — javob yo'q
 - Yangi xodim jarayonni tushunish uchun tajribali kishidan so'rashi kerak
-
-</td>
-<td width="50%">
 
 #### ✅ YECHIM (v2.0)
 
@@ -261,10 +199,6 @@ graph LR
   5. Xizmat zakazi
   6. To'lov va qarz boshqaruvi
   7. Login va navigatsiya
-
-</td>
-</tr>
-</table>
 
 #### 💡 Ish jarayonidagi afzallik:
 
@@ -282,10 +216,6 @@ graph LR
 
 ### 2.6 🎨 UI/UX Dizayn
 
-<table>
-<tr>
-<td width="50%">
-
 #### ❌ MUAMMO (v1.0)
 
 - Faqat sahifalar ro'yxati berilgan
@@ -293,9 +223,6 @@ graph LR
 - Dizayner **o'zi o'ylab topishi** kerak
 - Mobile responsive eslatilmagan
 - Animatsiyalar yo'q
-
-</td>
-<td width="50%">
 
 #### ✅ YECHIM (v2.0)
 
@@ -306,10 +233,6 @@ graph LR
 - **3 ta** responsive breakpoint
 - **9 ta** animatsiya spetsifikatsiyasi
 - Tipografiya (font, hajm, vazn)
-
-</td>
-</tr>
-</table>
 
 #### 💡 Ish jarayonidagi afzallik:
 
@@ -325,10 +248,6 @@ graph LR
 
 ### 2.7 🔐 Xavfsizlik va Deploy
 
-<table>
-<tr>
-<td width="50%">
-
 #### ❌ MUAMMO (v1.0)
 
 - Xavfsizlik faqat "JWT, HTTPS, CORS" — 3 so'z
@@ -336,9 +255,6 @@ graph LR
 - Server talablari noma'lum
 - CI/CD, backup, monitoring — eslatilmagan
 - Deploy qilish — "qandaydir serverga qo'yamiz"
-
-</td>
-<td width="50%">
 
 #### ✅ YECHIM (v2.0)
 
@@ -350,10 +266,6 @@ graph LR
 - Monitoring vositalari (6 ta)
 - `.env` namuna tayyor
 - Server talablari (Dev + Prod)
-
-</td>
-</tr>
-</table>
 
 #### 💡 Ish jarayonidagi afzallik:
 
@@ -368,8 +280,6 @@ graph LR
 > 📊 **Monitoring:** Sentry xatolarni ushlaydi, Grafana serverni kuzatadi — **muammo chiqsa darhol xabar**
 
 ---
-
-<br/>
 
 ## 🏆 3. YAKUNIY NATIJALAR
 
@@ -449,33 +359,25 @@ graph TB
 
 ---
 
-<br/>
-
 ## 🗂 4. HUJJATLAR XARITASI
 
 > Qaysi hujjat kimga kerak?
 
 | Hujjat | 👨‍💻 Backend | 🌐 Frontend | 🎨 Dizayner | 📊 PM | 🔧 DevOps |
 |:-------|:----------:|:----------:|:----------:|:-----:|:--------:|
-| `01_TEXNIK_TOPSHIRIQ` | 📖 | 📖 | 📖 | **📖** | 📖 |
-| `02_ARXITEKTURA` | **📖** | **📖** | — | 📖 | **📖** |
-| `03_DATABASE_SCHEMA` | **📖** | — | — | — | — |
-| `04_API_SPECIFICATION` | **📖** | **📖** | — | — | — |
-| `05_WORKFLOW_DIAGRAMS` | **📖** | **📖** | — | **📖** | — |
-| `06_UI_UX_DESIGN` | — | **📖** | **📖** | 📖 | — |
-| `07_SECURITY_DEPLOY` | 📖 | — | — | — | **📖** |
+| `TEXNIK_TOPSHIRIQ` | 📖 | 📖 | 📖 | **📖** | 📖 |
+| `ARXITEKTURA` | **📖** | **📖** | — | 📖 | **📖** |
+| `DATABASE_SCHEMA` | **📖** | — | — | — | — |
+| `API_SPECIFICATION` | **📖** | **📖** | — | — | — |
+| `WORKFLOW_DIAGRAMS` | **📖** | **📖** | — | **📖** | — |
+| `UI_UX_DESIGN` | — | **📖** | **📖** | 📖 | — |
+| `SECURITY_DEPLOY` | 📖 | — | — | — | **📖** |
 
 > **📖** = majburiy o'qishi kerak · 📖 = foydali, ixtiyoriy
 
 ---
 
-<br/>
-
 ## ✅ 5. XULOSA
-
-<table>
-<tr>
-<td width="50%">
 
 ### ❌ Oldingi holat
 
@@ -485,9 +387,6 @@ graph TB
 > - Vaqt ko'p sarflanadi
 > - Sifat past
 
-</td>
-<td width="50%">
-
 ### ✅ Hozirgi holat
 
 > 7 ta professional hujjat — dasturchi **ochadi va ishlaydi**. Hammasi oldindan loyihalangan. Natijada:
@@ -495,12 +394,6 @@ graph TB
 > - Xatolar **kamaygan**
 > - Vaqt **3-5 marta** tejalgan
 > - Sifat **professional** darajada
-
-</td>
-</tr>
-</table>
-
-<div align="center">
 
 ---
 
@@ -512,7 +405,4 @@ graph TB
 
 ---
 
-`NafGroup CRM` · `TZ v2.0` · `2025`
-
-</div>
-]]>
+*`NafGroup CRM` · `TZ v2.0` · `2025`*

@@ -1,14 +1,7 @@
-<![CDATA[<div align="center">
-
 # 🔐 XAVFSIZLIK VA DEPLOY
-
 ### NafGroup CRM — Xavfsizlik · Server · CI/CD
 
 ---
-
-</div>
-
-<br/>
 
 ## 🛡 1. XAVFSIZLIK ARXITEKTURASI
 
@@ -46,15 +39,9 @@ flowchart LR
 
 ---
 
-<br/>
-
 ## 🖥 2. SERVER TALABLARI
 
-<table>
-<tr>
-<td width="50%">
-
-#### 💻 Minimal (Development)
+### 💻 Minimal (Development)
 
 | Komponent | Tavsiya |
 |:----------|:--------|
@@ -64,10 +51,7 @@ flowchart LR
 | Disk | 40 GB SSD |
 | Network | 50 Mbps |
 
-</td>
-<td width="50%">
-
-#### 🚀 Tavsiya etilgan (Production)
+### 🚀 Tavsiya etilgan (Production)
 
 | Komponent | Tavsiya |
 |:----------|:--------|
@@ -77,13 +61,7 @@ flowchart LR
 | Disk | 100+ GB SSD |
 | Network | 100+ Mbps |
 
-</td>
-</tr>
-</table>
-
 ---
-
-<br/>
 
 ## 🐳 3. DOCKER COMPOSE — PRODUCTION
 
@@ -162,8 +140,6 @@ volumes:
 
 ---
 
-<br/>
-
 ## 📡 4. NGINX KONFIGURATSIYA
 
 ```nginx
@@ -215,8 +191,6 @@ server {
 
 ---
 
-<br/>
-
 ## 🔄 5. CI/CD PIPELINE
 
 ```mermaid
@@ -246,8 +220,6 @@ flowchart LR
 
 ---
 
-<br/>
-
 ## 💾 6. BACKUP STRATEGIYASI
 
 | # | Nima | Qancha tez | Saqlash | Usul |
@@ -258,8 +230,6 @@ flowchart LR
 | 4 | 🖥 Full server | Har hafta | 12 hafta | Server provider |
 
 ---
-
-<br/>
 
 ## 📊 7. MONITORING
 
@@ -273,8 +243,6 @@ flowchart LR
 | 🐘 **pg_stat** | DB monitoring | Query performance |
 
 ---
-
-<br/>
 
 ## 🔧 8. ENVIRONMENT VARIABLES
 
@@ -317,9 +285,4 @@ EMAIL_HOST_PASSWORD=<password>
 
 ---
 
-<div align="center">
-
 *🔐 Xavfsizlik va deploy hujjati yakunlandi*
-
-</div>
-]]>

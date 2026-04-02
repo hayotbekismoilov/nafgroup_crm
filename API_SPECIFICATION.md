@@ -1,18 +1,11 @@
-<![CDATA[<div align="center">
-
-# 🔌 API SPETSIFIKATSIYASI
-
+# API SPETSIFIKATSIYASI
 ### NafGroup CRM — REST API Endpoints
 
+**Base URL:** `https://api.nafgroup.uz/api/v1/`  
+**Auth:** `JWT Bearer Token`  
+**Format:** `JSON`
+
 ---
-
-`Base URL` · `https://api.nafgroup.uz/api/v1/`  
-`Auth` · `JWT Bearer Token`  
-`Format` · `JSON`
-
-</div>
-
-<br/>
 
 ## 🔑 1. AUTENTIFIKATSIYA
 
@@ -24,11 +17,7 @@
 | `GET` | `/auth/me/` | Joriy foydalanuvchi | ✅ |
 | `PUT` | `/auth/password/change/` | Parol o'zgartirish | ✅ |
 
-<table>
-<tr>
-<td width="50%">
-
-#### 📤 Login Request
+### 📤 Login Request
 ```json
 {
     "email": "admin@nafgroup.uz",
@@ -36,10 +25,7 @@
 }
 ```
 
-</td>
-<td width="50%">
-
-#### 📥 Login Response `200`
+### 📥 Login Response `200`
 ```json
 {
     "access": "eyJ0eXAiOiJKV1Qi...",
@@ -52,13 +38,7 @@
 }
 ```
 
-</td>
-</tr>
-</table>
-
 ---
-
-<br/>
 
 ## 📋 2. BUYURTMALAR
 
@@ -78,9 +58,9 @@
 | `PATCH` | `/orders/{id}/queue/` | 🔄 Navbat o'zgartirish | M SA |
 | `GET` | `/orders/kanban/` | 📊 Kanban view | All |
 
-#### 🔍 Filtrlash
+### 🔍 Filtrlash
 
-```
+```text
 GET /orders/?status=PRINTING
             &priority=RUSH
             &client={uuid}
@@ -91,7 +71,7 @@ GET /orders/?status=PRINTING
             &page=1&page_size=20
 ```
 
-#### ➕ Buyurtma yaratish
+### ➕ Buyurtma yaratish
 
 ```json
 // POST /orders/
@@ -112,8 +92,6 @@ GET /orders/?status=PRINTING
 
 ---
 
-<br/>
-
 ## 👥 3. MIJOZLAR
 
 | Metod | Endpoint | Tavsif | Rollar |
@@ -131,8 +109,6 @@ GET /orders/?status=PRINTING
 
 ---
 
-<br/>
-
 ## 🏗 4. SKLAD
 
 | Metod | Endpoint | Tavsif | Rollar |
@@ -148,7 +124,7 @@ GET /orders/?status=PRINTING
 | `GET` | `/warehouse/report/` | 📊 Sklad hisoboti | SK D SA |
 | `GET` | `/warehouse/suppliers/` | 🚚 Yetkazib beruvchilar | SK SA |
 
-#### 📥 Kirim yaratish
+### 📥 Kirim yaratish
 
 ```json
 // POST /warehouse/income/
@@ -162,8 +138,6 @@ GET /orders/?status=PRINTING
 ```
 
 ---
-
-<br/>
 
 ## 👷 5. ISHCHILAR (HR)
 
@@ -183,8 +157,6 @@ GET /orders/?status=PRINTING
 
 ---
 
-<br/>
-
 ## 🔧 6. XIZMATLAR
 
 | Metod | Endpoint | Tavsif | Rollar |
@@ -199,8 +171,6 @@ GET /orders/?status=PRINTING
 | `GET` | `/services/{id}/costs/` | 💰 Xarajat hisobi | M D B SA |
 
 ---
-
-<br/>
 
 ## 💰 7. MOLIYA
 
@@ -218,8 +188,6 @@ GET /orders/?status=PRINTING
 
 ---
 
-<br/>
-
 ## 📊 8. DASHBOARD
 
 | Metod | Endpoint | Tavsif |
@@ -231,7 +199,7 @@ GET /orders/?status=PRINTING
 | `GET` | `/dashboard/stock-alerts/` | ⚠️ Sklad ogohlantirishlari |
 | `WS` | `/ws/dashboard/` | 🔌 Real-time yangilanish |
 
-#### 📊 Stats Response
+### 📊 Stats Response
 
 ```json
 {
@@ -247,8 +215,6 @@ GET /orders/?status=PRINTING
 
 ---
 
-<br/>
-
 ## 🤖 9. TELEGRAM BOT
 
 | Metod | Endpoint | Tavsif |
@@ -261,15 +227,9 @@ GET /orders/?status=PRINTING
 
 ---
 
-<br/>
-
 ## 📐 10. UMUMIY KONVENTSIYALAR
 
-<table>
-<tr>
-<td width="50%">
-
-#### 📄 Pagination
+### 📄 Pagination
 ```json
 {
     "count": 150,
@@ -279,10 +239,7 @@ GET /orders/?status=PRINTING
 }
 ```
 
-</td>
-<td width="50%">
-
-#### ❌ Error Format
+### ❌ Error Format
 ```json
 {
     "error": {
@@ -295,11 +252,7 @@ GET /orders/?status=PRINTING
 }
 ```
 
-</td>
-</tr>
-</table>
-
-#### 🔐 Rol qisqartmalari
+### 🔐 Rol qisqartmalari
 
 | Qisqartma | Rol | Qisqartma | Rol |
 |:---------:|:----|:---------:|:----|
@@ -310,9 +263,4 @@ GET /orders/?status=PRINTING
 
 ---
 
-<div align="center">
-
 *🔌 API spetsifikatsiyasi yakunlandi*
-
-</div>
-]]>

@@ -1,14 +1,7 @@
-<![CDATA[<div align="center">
-
 # 🔄 WORKFLOW DIAGRAMMALARI
-
 ### NafGroup CRM — Biznes Jarayonlar Oqimi
 
 ---
-
-</div>
-
-<br/>
 
 ## 📋 1. BUYURTMA — TO'LIQ HAYOT SIKLI
 
@@ -49,8 +42,6 @@ flowchart TD
 
 ---
 
-<br/>
-
 ## 🏗 2. SKLAD KIRIM-CHIQIM
 
 ```mermaid
@@ -89,8 +80,6 @@ flowchart LR
 ```
 
 ---
-
-<br/>
 
 ## 👷 3. HR DAVOMAT — TO'LIQ JARAYON
 
@@ -134,8 +123,6 @@ sequenceDiagram
 
 ---
 
-<br/>
-
 ## 💰 4. OYLIK ISH HAQI HISOBLASH
 
 ```mermaid
@@ -165,8 +152,6 @@ flowchart TD
 ```
 
 ---
-
-<br/>
 
 ## 🔧 5. XIZMAT ZAKAZI JARAYONI
 
@@ -200,8 +185,6 @@ flowchart TD
 
 ---
 
-<br/>
-
 ## 💳 6. TO'LOV VA QARZ BOSHQARUVI
 
 ```mermaid
@@ -234,8 +217,6 @@ flowchart TD
 
 ---
 
-<br/>
-
 ## 🔐 7. LOGIN VA NAVIGATSIYA
 
 ```mermaid
@@ -266,9 +247,4 @@ flowchart TD
 
 ---
 
-<div align="center">
-
 *🔄 Workflow diagrammalari yakunlandi*
-
-</div>
-]]>

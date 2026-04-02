@@ -1,14 +1,7 @@
-<![CDATA[<div align="center">
-
 # 🎨 UI/UX DIZAYN
-
 ### NafGroup CRM — Interfeys Loyihalash
 
 ---
-
-</div>
-
-<br/>
 
 ## 🗺 1. SAHIFALAR XARITASI
 
@@ -53,11 +46,9 @@ graph TB
 
 ---
 
-<br/>
-
 ## 📐 2. LAYOUT TUZILISHI
 
-```
+```text
 ┌──────────────────────────────────────────────────────────────┐
 │  🔝 HEADER BAR                                              │
 │  ┌───────┬───────────────────────────────┬────────────────┐  │
@@ -85,15 +76,9 @@ graph TB
 
 ---
 
-<br/>
-
 ## 🎨 3. DIZAYN TIZIMI
 
 ### 3.1 Ranglar palitra
-
-<table>
-<tr>
-<td width="50%">
 
 #### 🌞 Light Mode
 
@@ -108,9 +93,6 @@ graph TB
 | 🔘 Text Muted | `#64748B` | Ikkilamchi |
 | ⬜ Border | `#E2E8F0` | Chegaralar |
 
-</td>
-<td width="50%">
-
 #### 🌙 Dark Mode *(2-bosqich)*
 
 | Rang | Hex | Ishlatilish |
@@ -122,10 +104,6 @@ graph TB
 | ⬜ Text | `#F1F5F9` | Asosiy matn |
 | 🔘 Text Muted | `#94A3B8` | Ikkilamchi |
 | ⬛ Border | `#334155` | Chegaralar |
-
-</td>
-</tr>
-</table>
 
 #### Status ranglari
 
@@ -168,8 +146,6 @@ graph TB
 
 ---
 
-<br/>
-
 ## 📱 4. RESPONSIVE
 
 | Breakpoint | Hajm | Layout |
@@ -179,8 +155,6 @@ graph TB
 | 📱 **Mobile** | <768px | Bottom navigation + Full content |
 
 ---
-
-<br/>
 
 ## ✨ 5. ANIMATSIYALAR
 
@@ -197,8 +171,6 @@ graph TB
 | 📈 Charts | Draw on load | 1000ms |
 
 ---
-
-<br/>
 
 ## 📄 6. ASOSIY SAHIFALAR
 
@@ -221,9 +193,4 @@ graph TB
 
 ---
 
-<div align="center">
-
 *🎨 UI/UX dizayn hujjati yakunlandi*
-
-</div>
-]]>

@@ -1,14 +1,7 @@
-<![CDATA[<div align="center">
-
 # 🗄 MA'LUMOTLAR BAZASI SXEMASI
-
 ### NafGroup CRM — PostgreSQL Database Schema
 
 ---
-
-</div>
-
-<br/>
 
 ## 📊 1. ER DIAGRAMMA
 
@@ -102,8 +95,6 @@ erDiagram
 
 ---
 
-<br/>
-
 ## 📋 2. JADVALLAR RO'YXATI
 
 | # | Jadval | Modul | Tavsif |
@@ -133,8 +124,6 @@ erDiagram
 | 23 | `settings` | ⚙️ Core | Tizim sozlamalari |
 
 ---
-
-<br/>
 
 ## 🔨 3. SQL DDL — ASOSIY JADVALLAR
 
@@ -328,8 +317,6 @@ CREATE INDEX idx_payments_client ON payments(client_id);
 
 ---
 
-<br/>
-
 ## ⚡ 4. TRIGGER — SKLAD AVTOMATIK YANGILANISH
 
 ```sql
@@ -357,8 +344,6 @@ FOR EACH ROW EXECUTE FUNCTION update_stock();
 ```
 
 ---
-
-<br/>
 
 ## 🔗 5. BOG'LIQLIKLAR DIAGRAMMASI
 
@@ -414,9 +399,4 @@ graph TB
 
 ---
 
-<div align="center">
-
 *🗄 Ma'lumotlar bazasi sxemasi yakunlandi*
-
-</div>
-]]>

@@ -1,7 +1,4 @@
-<![CDATA[<div align="center">
-
 # 🏭 NAFGROUP PRINT CRM
-
 ### Texnik Topshiriq (TZ) — Versiya 2.0
 
 **Print va Reklama Korxonasi uchun CRM Tizimi**
@@ -12,49 +9,33 @@
 
 **2025-yil, Aprel**
 
-</div>
-
 ---
-
-<br/>
 
 ## 📑 MUNDARIJA
 
-<table>
-<tr><td>
-
 | # | Bo'lim | Sahifa |
 |:-:|--------|:------:|
-| 1 | [Loyiha haqida](#-1-loyiha-haqida-umumiy-malumot) | — |
-| 2 | [Texnologiyalar steki](#-2-texnologiyalar-steki) | — |
-| 3 | [Modullar tuzilishi](#-3-modullar-tuzilishi) | — |
-| 4 | [Buyurtmalar moduli](#-4-diller-va-buyurtmalar) | — |
-| 5 | [HR va Davomat moduli](#-5-ishchilar-hr-va-davomat) | — |
-| 6 | [Sklad moduli](#-6-sklad-warehouse) | — |
-| 7 | [Mijozlar CRM moduli](#-7-mijozlar-crm) | — |
-| 8 | [Xizmatlar moduli](#-8-xizmatlar-va-montaj) | — |
-| 9 | [Moliya moduli](#-9-moliyaviy-hisoblar) | — |
-| 10 | [Dashboard](#-10-dashboard-va-analytics) | — |
-| 11 | [Telegram Bot](#-11-telegram-hr-bot) | — |
-| 12 | [Xavfsizlik](#-12-xavfsizlik) | — |
-| 13 | [Ishlab chiqish rejasi](#-13-ishlab-chiqish-bosqichlari) | — |
-
-</td></tr>
-</table>
+| 1 | [Loyiha haqida](#1-loyiha-haqida-umumiy-malumot) | — |
+| 2 | [Texnologiyalar steki](#2-texnologiyalar-steki) | — |
+| 3 | [Modullar tuzilishi](#3-modullar-tuzilishi) | — |
+| 4 | [Buyurtmalar moduli](#4-diller-va-buyurtmalar) | — |
+| 5 | [HR va Davomat moduli](#5-ishchilar-hr-va-davomat) | — |
+| 6 | [Sklad moduli](#6-sklad-warehouse) | — |
+| 7 | [Mijozlar CRM moduli](#7-mijozlar-crm) | — |
+| 8 | [Xizmatlar moduli](#8-xizmatlar-va-montaj) | — |
+| 9 | [Moliya moduli](#9-moliyaviy-hisoblar) | — |
+| 10 | [Dashboard](#10-dashboard-va-analytics) | — |
+| 11 | [Telegram Bot](#11-telegram-hr-bot) | — |
+| 12 | [Xavfsizlik](#12-xavfsizlik) | — |
+| 13 | [Ishlab chiqish rejasi](#13-ishlab-chiqish-bosqichlari) | — |
 
 ---
-
-<br/>
 
 ## 🎯 1. LOYIHA HAQIDA UMUMIY MA'LUMOT
 
 ### 1.1 Maqsad
 
 > Print va reklama korxonasining **barcha asosiy jarayonlarini** yagona CRM platformasiga birlashtirish va avtomatlashtirish.
-
-<table>
-<tr>
-<td width="50%">
 
 #### ✅ Tizim hal qiladigan muammolar
 
@@ -65,9 +46,6 @@
 - 🔧 Xizmat ko'rsatish jarayonlarini tashkil etish
 - 📊 Hisobotlarni qo'lda tayyorlash
 
-</td>
-<td width="50%">
-
 #### 🚀 Tizim afzalliklari
 
 - ⚡ Real-time buyurtmalar nazorati
@@ -76,10 +54,6 @@
 - 🔐 Rol-based huquqlar tizimi
 - 📱 Responsive dizayn (mobil qo'llab-quvvatlash)
 - 🔔 Ogohlantirish va bildirishnomalar
-
-</td>
-</tr>
-</table>
 
 ### 1.2 Foydalanuvchilar
 
@@ -94,8 +68,6 @@
 | 👷 **Ishchi** | 10–50 | Davomat, o'z statistikasi | 🤖 Telegram |
 
 ---
-
-<br/>
 
 ## 🛠 2. TEXNOLOGIYALAR STEKI
 
@@ -134,10 +106,6 @@ graph LR
 
 ### 2.2 To'liq texnologiyalar jadvali
 
-<table>
-<tr>
-<td width="50%">
-
 #### 🌐 Frontend
 
 | Texnologiya | Maqsad |
@@ -155,9 +123,6 @@ graph LR
 | React Router v6 | Navigatsiya |
 | Sonner | Toast xabarlar |
 | Lucide React | Ikonkalar |
-
-</td>
-<td width="50%">
 
 #### ⚙️ Backend
 
@@ -177,13 +142,7 @@ graph LR
 | Pillow | Rasm qayta ishlash |
 | Aiogram 3.x | Telegram bot |
 
-</td>
-</tr>
-</table>
-
 ---
-
-<br/>
 
 ## 📦 3. MODULLAR TUZILISHI
 
@@ -230,40 +189,23 @@ graph TB
 
 ---
 
-<br/>
-
 ## 📋 4. DILLER VA BUYURTMALAR
 
 > **Eng muhim modul** — buyurtma qabul qilish, ishlab chiqarish jarayoni, yetkazib berish.
 
 ### 4.1 Fayl qabul qilish
 
-<table>
-<tr>
-<td width="33%">
-
 #### 🖼 Rasm formatlari
-`.PNG` `.JPEG` `.TIFF` `.BMP`
-
-</td>
-<td width="33%">
+`.PNG`, `.JPEG`, `.TIFF`, `.BMP`
 
 #### ✏️ Vektor formatlari
-`.AI` `.PSD` `.PDF` `.SVG`  
-`.EPS` `.CDR` `.DXF`
-
-</td>
-<td width="33%">
+`.AI`, `.PSD`, `.PDF`, `.SVG`, `.EPS`, `.CDR`, `.DXF`
 
 #### 📦 Arxiv formatlari
-`.ZIP` `.RAR`
+`.ZIP`, `.RAR`
 
 **Max hajm:** 500 MB / fayl  
 **Bir vaqtda:** 20 ta fayl
-
-</td>
-</tr>
-</table>
 
 ### 4.2 Buyurtma kartochkasi
 
@@ -338,7 +280,7 @@ stateDiagram-v2
 
 ### 4.5 Material avtomatik hisobi
 
-```
+```text
 📐 Sarflanadigan material = Kenglik × Balandlik × Miqdor × Koeffitsient
 
    Koeffitsient:
@@ -352,8 +294,6 @@ stateDiagram-v2
 - 📤 `BOSISHDA` holatida → operator tasdiqlaydi → skladdan ayiriladi
 
 ---
-
-<br/>
 
 ## 👷 5. ISHCHILAR HR VA DAVOMAT
 
@@ -410,42 +350,14 @@ sequenceDiagram
 
 ### 5.3 Ish haqi formulalari
 
-<table>
-<tr>
-<td width="33%">
-
 #### 💼 OYLIK rejim
-```
-Maosh = Oylik ÷ IshKunlari 
-        × KelganKunlar
-        − Jarimalar
-        + Bonuslar
-```
-
-</td>
-<td width="33%">
+`Maosh = Oylik ÷ IshKunlari × KelganKunlar − Jarimalar + Bonuslar`
 
 #### ⏰ SOATBAY rejim
-```
-Maosh = Stavka × JamiSoat
-        − Jarimalar
-        + Bonuslar
-```
-
-</td>
-<td width="33%">
+`Maosh = Stavka × JamiSoat − Jarimalar + Bonuslar`
 
 #### 📅 KUNDUZGI rejim
-```
-Maosh = KunlikStavka 
-        × KelganKunlar
-        − Jarimalar
-        + Bonuslar
-```
-
-</td>
-</tr>
-</table>
+`Maosh = KunlikStavka × KelganKunlar − Jarimalar + Bonuslar`
 
 | Ko'rsatkich | Formula |
 |:------------|:--------|
@@ -456,8 +368,6 @@ Maosh = KunlikStavka
 | ⭐ Bonus | `ortiqcha_soat × bonus_stavka` |
 
 ---
-
-<br/>
 
 ## 🏗 6. SKLAD (WAREHOUSE)
 
@@ -512,8 +422,6 @@ flowchart LR
 
 ---
 
-<br/>
-
 ## 👥 7. MIJOZLAR (CRM)
 
 ### 7.1 Mijoz toifalari
@@ -527,7 +435,7 @@ flowchart LR
 
 ### 7.2 Mijoz profili
 
-```
+```text
 ┌───────────────────────────────────────────────────────────┐
 │  👤 ALISHER KARIMOV                          🥇 VIP      │
 │  📱 +998 90 123-45-67  ·  ✉️ alisher@mail.uz             │
@@ -556,8 +464,6 @@ flowchart LR
 | 📊 Marjinallik | `(Foyda ÷ Narx) × 100%` |
 
 ---
-
-<br/>
 
 ## 🔧 8. XIZMATLAR VA MONTAJ
 
@@ -593,8 +499,6 @@ graph TB
 ```
 
 ---
-
-<br/>
 
 ## 💰 9. MOLIYAVIY HISOBLAR
 
@@ -634,13 +538,11 @@ flowchart LR
 
 ---
 
-<br/>
-
 ## 📊 10. DASHBOARD VA ANALYTICS
 
 ### 10.1 Widgetlar
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │  📊 BOSHQARUV PANELI                                    ⚙️ 👤  │
 ├─────────────┬──────────────┬──────────────┬────────────────────┤
@@ -675,8 +577,6 @@ flowchart LR
 
 ---
 
-<br/>
-
 ## 🤖 11. TELEGRAM HR BOT
 
 ### 11.1 Bot menyu tuzilishi
@@ -701,12 +601,8 @@ graph TB
 
 ### 11.2 Xabar namunalari
 
-<table>
-<tr>
-<td width="50%">
-
 #### 📩 Boshliqqa xabar
-```
+```text
 📍 Yangi kelish xabarnomasi
 
 👤 Ishchi: Alisher Karimov
@@ -718,11 +614,9 @@ graph TB
 [✔️ TASDIQLASH] [❌ RAD ETISH]
 ```
 
-</td>
-<td width="50%">
 
 #### 📊 Ishchi statistikasi
-```
+```text
 📊 Oylik statistika — Mart 2025
 
 👤 Alisher Karimov
@@ -737,13 +631,7 @@ graph TB
 💵 JAMI: 4,050,000 UZS
 ```
 
-</td>
-</tr>
-</table>
-
 ---
-
-<br/>
 
 ## 🔐 12. XAVFSIZLIK
 
@@ -759,8 +647,6 @@ graph TB
 | 📁 **File Check** | Fayl turi va hajmi tekshiriladi |
 
 ---
-
-<br/>
 
 ## 📅 13. ISHLAB CHIQISH BOSQICHLARI
 
@@ -818,8 +704,6 @@ gantt
 
 ---
 
-<br/>
-
 ## 🔮 QO'SHIMCHA IMKONIYATLAR (2-bosqich)
 
 | # | Imkoniyat | Prioritet |
@@ -837,13 +721,7 @@ gantt
 
 ---
 
-<div align="center">
-
-**📋 Hujjat yakunlandi**
-
+*📋 Hujjat yakunlandi*
 *Barcha savollar bo'yicha loyiha rahbari bilan muzokaralar olib boriladi.*
 
-`NafGroup CRM` · `v2.0` · `2025`
-
-</div>
-]]>
+*`NafGroup CRM` · `v2.0` · `2025`*
